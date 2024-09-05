@@ -1,0 +1,186 @@
+{
+    "owners": [
+        {
+            "id": 1,
+            "firstName": "John",
+            "lastName": "Doe",
+            "phoneNumber": "123-456-7890"
+        },
+        {
+            "id": 2,
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "phoneNumber": "987-654-3210"
+        },
+        {
+            "id": 3,
+            "firstName": "Alice",
+            "lastName": "Johnson",
+            "phoneNumber": "555-123-4567"
+        },
+        {
+            "id": 4,
+            "firstName": "Bob",
+            "lastName": "Brown",
+            "phoneNumber": "555-987-6543"
+        }
+    ],
+    "animals": [
+        {
+            "id": 1,
+            "owner": {
+                "id": 1,
+                "firstName": "John",
+                "lastName": "Doe",
+                "phoneNumber": "123-456-7890"
+            },
+            "name": "Buddy",
+            "species": "Dog",
+            "age": "5",
+            "gender": "Male",
+            "weight": "20kg"
+        },
+        {
+            "id": 2,
+            "owner": {
+                "id": 2,
+                "firstName": "Jane",
+                "lastName": "Smith",
+                "phoneNumber": "987-654-3210"
+            },
+            "name": "Whiskers",
+            "species": "Cat",
+            "age": "3",
+            "gender": "Female",
+            "weight": "5kg"
+        },
+        {
+            "id": 3,
+            "owner": {
+                "id": 3,
+                "firstName": "Alice",
+                "lastName": "Johnson",
+                "phoneNumber": "555-123-4567"
+            },
+            "name": "Charlie",
+            "species": "Parrot",
+            "age": "2",
+            "gender": "Male",
+            "weight": "1kg"
+        },
+        {
+            "id": 4,
+            "owner": {
+                "id": 4,
+                "firstName": "Bob",
+                "lastName": "Brown",
+                "phoneNumber": "555-987-6543"
+            },
+            "name": "Max",
+            "species": "Rabbit",
+            "age": "1",
+            "gender": "Male",
+            "weight": "2kg"
+        }
+    ],
+    "completedAppointments": [
+        {
+            "id": 1,
+            "animal": {
+                "id": 1,
+                "owner": {
+                    "id": 1,
+                    "firstName": "John",
+                    "lastName": "Doe",
+                    "phoneNumber": "123-456-7890"
+                },
+                "name": "Buddy",
+                "species": "Dog",
+                "age": "5",
+                "gender": "Male",
+                "weight": "20kg"
+            },
+            "date": {
+                "day": "15",
+                "month": "January",
+                "year": "2023"
+            },
+            "reason": "Regular Checkup",
+            "prescription": "Vitamin Supplements"
+        },
+        {
+            "id": 2,
+            "animal": {
+                "id": 2,
+                "owner": {
+                    "id": 2,
+                    "firstName": "Jane",
+                    "lastName": "Smith",
+                    "phoneNumber": "987-654-3210"
+                },
+                "name": "Whiskers",
+                "species": "Cat",
+                "age": "3",
+                "gender": "Female",
+                "weight": "5kg"
+            },
+            "date": {
+                "day": "20",
+                "month": "February",
+                "year": "2023"
+            },
+            "reason": "Vaccination",
+            "prescription": "Rabies Vaccine"
+        }
+    ],
+    "upcomingAppointments": [
+        {
+            "id": 1,
+            "animal": {
+                "id": 3,
+                "owner": {
+                    "id": 3,
+                    "firstName": "Alice",
+                    "lastName": "Johnson",
+                    "phoneNumber": "555-123-4567"
+                },
+                "name": "Charlie",
+                "species": "Parrot",
+                "age": "2",
+                "gender": "Male",
+                "weight": "1kg"
+            },
+            "date": {
+                "day": "10",
+                "month": "March",
+                "year": "2023"
+            },
+            "reason": "Wing Clipping",
+            "prescription": "None"
+        },
+        {
+            "id": 2,
+            "animal": {
+                "id": 4,
+                "owner": {
+                    "id": 4,
+                    "firstName": "Bob",
+                    "lastName": "Brown",
+                    "phoneNumber": "555-987-6543"
+                },
+                "name": "Max",
+                "species": "Rabbit",
+                "age": "1",
+                "gender": "Male",
+                "weight": "2kg"
+            },
+            "date": {
+                "day": "25",
+                "month": "April",
+                "year": "2023"
+            },
+            "reason": "Dental Checkup",
+            "prescription": "Dental Chews"
+        }
+    ]
+}
