@@ -1,11 +1,10 @@
-CC = clang
+CC = gcc
 override CFLAGS += -g -Wno-everything
 
-SRCS = $(shell find . -name '.ccls-cache' -type d -prune -o -type f -name '*.c' -print)
-OBJS = $(patsubst %.c, %.o, $(SRCS))
+SRCS = main.c cJSON.c
 
-main: $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o main
+main: $(SRCS)
+	$(CC) $(CFLAGS) $(SRCS) -o main
 
 clean:
-	rm -f $(OBJS) main
+	rm -f main
